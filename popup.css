@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(CursedTimerULiL.ttf);
+}
+body {
+    margin: 0;
+
+width: 575px;
+height: 385px;
+
+background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    /* board-title-home */
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+margin-bottom: -70px;
+text-align: center;
+
+color: #EEEEEE;
+}
+.home-score{
+
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+background: #080001;
+border-radius: 5px;
+}
+p.home-points-text{
+    
+    
+    
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    
+    padding-left: 36px;
+    padding-top: 5%;
+    
+    color: #F94F6D;
+}
+.home-btn{
+    width: 155px;
+height: 45px;
+left: 82px;
+top: 271px;
+
+margin-top: 26;
+border-radius: 5px;
+}
+button.plus-one{
+    width: 45px;
+height: 45px;
+left: 82px;
+top: 271px;
+box-sizing: border-box;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+margin-right: 6;
+background: #1B244A;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+.plus-two{
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+margin-right: 6;
+box-sizing: border-box;
+background: #1B244A;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+
+}
+.plus-three{
+    width: 45px;
+height: 45px;
+left: 192px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+box-sizing: border-box;
+background: #1B244A;
+
+text-align: center;
+
+color: #9AABD8;
+}
+.newgame-btn{
+    width: 145px;
+height: 45px;
+left: 192px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+box-sizing: border-box;
+background: #1B244A;
+margin-top: 26px;
+margin-left: -120px;
+
+
+color: #9AABD8;
+}
+h2{
+    width: auto;
+height: 36px;
+left: 185px;
+top: 268px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+margin-bottom: -70px;
+text-align: center;
+margin-left: -320px;
+
+color: #EEEEEE;
+}
